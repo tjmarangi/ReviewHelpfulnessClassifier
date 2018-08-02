@@ -14,10 +14,24 @@ Credit to cmasch for: cnn_model.py, TrainModel.py (mostly), Evaluate.py (mostly)
 5-core dataset(s) from Julian McAuley, UCSD [1] and [2]  
 [datasets](http://jmcauley.ucsd.edu/data/amazon/)<br>
 Save them in the 5core_data directory  
+(Recommend starting with reviews_Kindle_Store_5.json.gz for functionality testing. Scripts are ready for it by default)  
   
-Pre-trained GloVe word vectors [4]
+Pre-trained GloVe word vectors [4]  
 [GloVe word vectors](http://nlp.stanford.edu/data/glove.6B.zip)<br>
 Save it in the base of the repo. 
+  
+## How to run
+Read docstrings of individual scripts for more details on operation.  
+$ python DataSlicing.py  
+(can take some time with the larger datafiles due to paging out of memory)  
+$ python PreProcessing.py. 
+(Recommended to move the results from reviews_stacked to input_files to avoid overwrite. Training script looks here by default)  
+$ python TrainModel.py  
+(Recommended to move results from model_history_out to model_history_archive to avoid overwrite. Evaluate and Test scripts look for them here)  
+$ python Evaluate.py. 
+(Will print plots which can be saved, plus max results in terminal)  
+$ python Test.py  
+(prints results to terminal)  
 
 ## Usage
 As per the original repo:  
