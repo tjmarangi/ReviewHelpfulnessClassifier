@@ -26,13 +26,13 @@ Read docstrings of individual scripts for more details on operation.
 $ python DataSlicing.py  
 (can take some time with the larger datafiles due to paging out of memory)  
   
-$ python PreProcessing.py. 
+$ python PreProcessing.py  
 (Recommended to move the results from reviews_stacked to input_files to avoid overwrite. Training script looks here by default)  
   
 $ python TrainModel.py  
 (Recommended to move results from model_history_out to model_history_archive to avoid overwrite. Evaluate and Test scripts look for them here)  
   
-$ python Evaluate.py. 
+$ python Evaluate.py  
 (Will print plots which can be saved, plus max results in terminal)  
   
 $ python Test.py  
