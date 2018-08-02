@@ -11,7 +11,7 @@ Credit to cmasch for: cnn_model.py, TrainModel.py (mostly), Evaluate.py (mostly)
 * Scikit 0.19.1
 
 ## Necessary Downloads
-5-core dataset(s) from Julian McAuley, UCSD [1] and [2]  
+5-core dataset(s) from Julian McAuley, UCSD [2] and [3]  
 [datasets](http://jmcauley.ucsd.edu/data/amazon/)<br>
 Save them in the 5core_data directory  
 (Recommend starting with reviews_Kindle_Store_5.json.gz for functionality testing. Scripts are ready for it by default)  
