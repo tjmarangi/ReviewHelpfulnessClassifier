@@ -159,8 +159,6 @@ for i in range(len(test_subsets)):
 
 out_dir = 'reviews_stacked'
 
-#check end of test_t_5 for quotes issue after fix
-#beginning of test_3_f is also showing &#34; as quotes
 
 for i in range(len(train_t)):
     outname = 'train_' + str(i+1) + '_t.txt'

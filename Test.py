@@ -25,9 +25,6 @@ input_test_t, input_test_f : names of corresponding test observations to use
 input_dir : relative directory where files are (may need to add sub-directory)
 
 Parameters: set equal to what was used in training
-
-Note that this script is NOT using the test set. It is purely for visualizing
-the performance over time on the validation set (used as part of training)
 """
 
 import os, re, string

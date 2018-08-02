@@ -26,7 +26,7 @@ input_test_t, input_test_f : names of susbset files to run with
 parameters from the parameters section (provided with settings used for research)
 
 Note that this script will not automatically perform cross-validation
-This is by design, because a single takes very long on these settings
+This is by design, because a single run takes very long on these settings
 To do cross-validation, initiate a new run after changing input_test files
 Save the model and history from each run in the archive directory provided
 """
@@ -226,23 +226,10 @@ def create_glove_embeddings():
 
 # =============================================================================
 # 
-# ****************
-# MODEL DEFINITION
-# ****************
-# 
-# =============================================================================
-
-
-# =============================================================================
-# 
 # Training
 # 
 # =============================================================================
 
-# =============================================================================
-# wd = '/Users/tjm/Dropbox/MEMSthesis/repos/ReviewHelpfulness_TempTest'
-# os.chdir(wd)
-# =============================================================================
 
 import cnn_model
 
