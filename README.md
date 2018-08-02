@@ -1,5 +1,5 @@
 # ReviewHelpfulnessClassifier
-This is a fork of [cnn-text-classification]https://github.com/cmasch/cnn-text-classification by Christopher Masch,  
+This is a fork of [cnn-text-classification](https://github.com/cmasch/cnn-text-classification) by Christopher Masch,  
 itself an implementation of the design of Yoon Kim [1].  
 It is purpose-built for testing helpfulness prediction of Amazon.com product reviews.  
 
